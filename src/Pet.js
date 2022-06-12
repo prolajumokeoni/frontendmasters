@@ -1,11 +1,8 @@
 import React from 'react'
 
-const Pets = (props) => {
+const Pets = ({ name, animal, breed, images, location, id }) => {
 	return (
-	<div> 
-		<p>{props.name}</p>
-		<p>{props.breed}</p>
-		<p>{props.animal}</p>
+	<div>  
 		</div>
 	)
 }
